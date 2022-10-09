@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 /*
- *Write a C program that prints a text with printf
+ * Write a C program that prints a text with printf
+ * main - prints a text
+ * Return: Always 0 (Success)
  */
 
 int main(void)
