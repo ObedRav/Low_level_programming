@@ -6,7 +6,7 @@
 int main(void)
 {
 char number;
-char letter;    
+char letter;
 for (number = '0'; number <= '9'; number++)
 {
 putchar(number);
