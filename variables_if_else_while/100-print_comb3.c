@@ -1,17 +1,30 @@
 #include <stdio.h>
-int main(void)
+/**
+ * main - prints all posible combinations of 2 digits 
+ * Return: Always 0
+ */ 
+int main()
 {
-  int number, number1;
-  for(number = '0'; number <= '9'; number++){
-    for(number1 = '0'; number1 <= '9'; number1++){
-      putchar(number);
-      putchar(number1);
-      if(number1 == '9' && number == '9'){
-	putchar('\n');
-      }else{
-	putchar(',');
-      }
-    }
-  }
-  return (0);
+int i;
+int j;
+for(i = 0; i <= 9; i++)
+{
+for(j = i + 1; j <= 9; j++)
+{
+if(i == j)
+{
+continue;
+}
+putchar((i%10)+ '0');
+putchar((j%10)+ '0');
+if(i==8 && j==9)
+{
+continue;
+putchar('\n');
+}
+putchar(',');
+putchar(' ');
+}
+}
+return (0);
 }
