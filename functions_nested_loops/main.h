@@ -1,11 +1,4 @@
-int _putchar(){
-  putchar('_');
-  putchar('p');
-  putchar('u');
-  putchar('t');
-  putchar('c');
-  putchar('h');
-  putchar('a');
-  putchar('r');
+int _putchar(char a){
+  putchar(a);
   return (0);
 }
