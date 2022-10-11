@@ -8,12 +8,12 @@
 
 int print_last_digit(int c)
 {
-int j;
-char z;
-for (j = 0; j <= c; j++)
+int last;
+last = c % 10;
+if (last < 0)
 {
-z = ((j % 10) + '0');
+last = last * -1;
 }
-_putchar(z);
-return (0);
+_putchar(last + '0');
+return (last);
 }
