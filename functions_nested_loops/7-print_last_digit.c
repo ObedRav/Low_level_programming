@@ -11,6 +11,6 @@ int print_last_digit(int c)
 int j;
 char z;
 for (j = 0; j <= c; j++)
-z = ((j % 10) + '0')
+z = ((j % 10) + '0');
 _putchar(z);
 }
