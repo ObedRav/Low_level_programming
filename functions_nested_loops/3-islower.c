@@ -2,6 +2,7 @@
 
 /**
  * _islower - check if is lower or not
+ * @c - data from user
  * Return: If is lower pront 1.
  */
 int _islower(int c)
