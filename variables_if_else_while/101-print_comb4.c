@@ -2,7 +2,7 @@
 /**
  * main - prints all posible combinations of 3 digits
  * Return: Always 0
- */                                                        
+ */
 int main(void)
 {
 int i;
@@ -17,7 +17,7 @@ for (k = j + 1; k <= 9; k++)
 putchar((i % 10) + '0');
 putchar((j % 10) + '0');
 putchar((k % 10) + '0');
-if (i==7 && j==8 && k==9)
+if (i == 7 && j == 8 && k == 9)
 {
 putchar('\n');
 continue;
