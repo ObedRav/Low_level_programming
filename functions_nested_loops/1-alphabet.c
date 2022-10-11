@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - prints alphabet
- * Return: Always 0
+ * print_alphabet - Make the alphabet
+ * Return: void
  */
 void print_alphabet(void)
 {
 int i;
-for(i = 'a'; i <= 'z'; i++)
+for (i = 'a'; i <= 'z'; i++)
 {
 putchar(i);
 }
