@@ -15,4 +15,5 @@ for (j = 0; j <= c; j++)
 z = ((j % 10) + '0');
 }
 _putchar(z);
+return (0);
 }
