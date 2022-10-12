@@ -13,7 +13,7 @@ for (j = 0; j < 3; j++)
 {
 for (i = 0; i <= 9; i++)
 {
-if (j == 2 && i >= 5){
+if (j == 2 && i >= 4){
 continue;
 }
 for (k = 0; k < 6; k++)
