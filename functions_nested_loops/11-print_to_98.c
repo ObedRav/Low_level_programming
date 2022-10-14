@@ -3,6 +3,7 @@
 /**
  * print_to_98 - print numbers to 98
  * Return: all numbers to 98
+ * @n: number from user
  */
 
 void print_to_98(int n){
