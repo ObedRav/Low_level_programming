@@ -7,14 +7,8 @@
 
 int _isupper(int c)
 {
-	char b;
-	b = (char)c;
-	if (b >= 'A' && b <= 'Z')
-	{
+	if (c >= 'A' && c<= 'Z')
 		return (1);
-	}
 	else
-	{
 		return (0);
-	}
 }
