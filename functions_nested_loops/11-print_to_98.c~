@@ -1,0 +1,14 @@
+#include "main.h"
+/**
+ * print_to_98 - print numbers to 98
+ * Return: all numbers to 98
+ */
+
+void print_to_98(int n){
+  int i;
+  if (n > i){
+    _putchar(i);
+    
+  }
+  for (i = 0; i <
+}
