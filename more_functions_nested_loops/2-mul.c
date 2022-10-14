@@ -5,7 +5,7 @@
  * @a: first number
  * @b: second number
  */
-int mul(int a; int b)
+int mul(int a, int b)
 {
 	int c;
 	char d;
