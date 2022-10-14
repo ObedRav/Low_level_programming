@@ -7,10 +7,10 @@
 
 int _isupper(int c)
 {
-	c = (c + '0');
-		if (c >= 'A' && c <= 'Z')
+	char b;
+	b = (char)c;
+		if (b >= 'A' && b <= 'Z')
 		{
-			c = (c - '0');
 			return (1);
 		}
 		else
