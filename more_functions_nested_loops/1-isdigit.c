@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * _isupper - return if c is upper
- * Return: c
+ * _isdigit - return 1
+ * Return: 1 if c is a digit from 0-9
  * @c: Data from user
  */
 
