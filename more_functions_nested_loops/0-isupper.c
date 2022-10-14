@@ -13,4 +13,8 @@ int _isupper(int c)
 			c = (c - '0');
 			return (c);
 		}
+		else
+		{
+			return (0);
+		}
 }
