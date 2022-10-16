@@ -17,6 +17,6 @@ int main(void)
 		a = b;
 		b = suma;
 	}
-	printf("%ld \n", duplicados);
+	printf("%ld\n", duplicados);
 	return (0);
 }
