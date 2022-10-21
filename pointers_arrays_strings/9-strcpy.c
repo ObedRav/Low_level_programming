@@ -8,10 +8,8 @@
  */
 char *_strcpy(char *dest, char *src)
 {
-	if (src != "/0")
-	{
-		dest = src;
-		_putchar('\n');
-	}
+	dest = src;
+	_putchar('\n');
+
 	return (dest);
 }
