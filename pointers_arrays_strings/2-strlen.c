@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 /**
  * _strlen - count chars
  * @s: data from user
@@ -7,7 +6,10 @@
  */
 int _strlen(char *s)
 {
-	int b = strlen(s);
+	while (str[i++])
+	{
+		length++;
+	}
 
 	return (b);
 }
