@@ -45,7 +45,7 @@ void print_array(int *a, int n)
 		else
 		{
 			print(a[i]);
-			_putchar('\n');
 		}
 	}
+	_putchar('\n');
 }
