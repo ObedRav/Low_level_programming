@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * findmultiplies - Finds the natural square root of an inputted number.
- * @num: The number to find the square root of.
+ * findmulplies - Finds the natural square root of an inputted number.
+ * @number: The number to find the square root of.
  * @multiplies: The root to be tested.
  *
  * Return: If the number has a natural square root - the square root.
