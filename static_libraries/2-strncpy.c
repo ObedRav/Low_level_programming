@@ -1,9 +1,4 @@
-/*
- * File: 2-strncpy.c
- * Auth: Brennan D Baraban
- */
-
-#include "holberton.h"
+#include "main.h"
 
 /**
  * _strncpy - Copies at most an inputted number
@@ -16,16 +11,16 @@
  */
 char *_strncpy(char *dest, char *src, int n)
 {
-	int index = 0, src_len = 0;
+	int i = 0, src_length = 0;
 
-	while (src[index++])
-		src_len++;
+	while (src[i++])
+		src_length++;
 
-	for (index = 0; src[index] && index < n; index++)
-		dest[index] = src[index];
+	for (i = 0; src[i] && i < n; i++)
+		dest[i] = src[i];
 
-	for (index = src_len; index < n; index++)
-		dest[index] = '\0';
+	for (i = src_length; i < n; i++)
+		dest[i] = '\0';
 
 	return (dest);
 }

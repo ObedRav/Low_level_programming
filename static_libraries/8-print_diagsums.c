@@ -1,9 +1,4 @@
-/*
- * File: 8-print_diagsums.c
- * Auth: Brennan D Baraban
- */
-
-#include "holberton.h"
+#include "main.h"
 #include <stdio.h>
 
 /**
