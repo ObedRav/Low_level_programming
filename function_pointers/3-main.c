@@ -3,8 +3,10 @@
 #include <stdio.h>
 
 /**
- *
- *
+ * main - calculator
+ * @argc: number of args
+ * @argv: args
+ * Return: The result
  */
 
 int main(int argc, char *argv[])
