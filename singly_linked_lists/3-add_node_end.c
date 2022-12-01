@@ -17,7 +17,7 @@ int len(const char *s)
 }
 
 /**
- * add_node_en - function that adds a new node at the end of a list_t list.
+ * add_node_end - function that adds a new node at the end of a list_t list.
  * @head: Pointer to head of the linked list
  * @str: String to assigned to the node
  * Return: the address of the new element, or NULL if it failed
