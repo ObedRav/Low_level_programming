@@ -16,7 +16,7 @@ size_t list_len(const list_t *h)
 		return (nodes_number);
 	}
 
-	while(h->next != NULL)
+	while (h->next != NULL)
 	{
 		nodes_number += 1;
 		h = h->next;
