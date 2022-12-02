@@ -1,39 +1,4 @@
-#include "main.h"
-
-/**
- * power - calculates the power pf two numbers
- * @base: base to calcule
- * @powr: the power to calculate
- * Return: the result fo the operation
- */
-unsigned int power(int base, unsigned int powr)
-{
-	unsigned int i, pows = base, current = 0;
-
-	for (i = 1; i <= powr; i++)
-	{
-		current = pows;
-		pows = current * base;
-	}
-	return ((pows / base));
-}
-
-/**
- * _strlen - count chars
- * @s: data from user
- * Return: The result
- */
-int _strlen(const char *s)
-{
-	int i = 0, length = 0;
-
-	while (s[i++])
-	{
-		length++;
-	}
-
-	return (length);
-}
+#include "holberton.h"
 
 /**
  * binary_to_uint - Converters a binary number to an unsigned integer
@@ -43,28 +8,32 @@ int _strlen(const char *s)
  */
 unsigned int binary_to_uint(const char *b)
 {
-	int dec = 0, i = 0, rem, n, j = 0, z;
+	unsigned int len;
+	unsigned int i;
+	unsigned int j;
+	unsigned int sum;
+	unsigned int pow;
+	int base;
 
-	if (!b)
+	base = 2;
+	sum = 0;
+	pow = 1;
+	if (b == NULL)
 		return (0);
-
-	j = _strlen(b);
-
-	for (z = 0; z < j; z++)
+	for (len = 0; b[len] != '\0'; len++) /*Getting the length of b num*/
+		;
+	if (len == 1 && (b[0] == '0' || b[0] == '1')) /*Checking single nums*/
+		return ((b[0] - 48));
+	for (i = 0; b[i] != '\0'; i++) /*Iterating through the string*/
 	{
-		if (b[z] != '0' && b[z] != '1')
+		if (b[i] != '0' && b[i] != '1')
 			return (0);
+		for (j = len - 1; j > 0; j--) /*Calculating the exponent*/
+			pow = pow * base;
+		sum = sum + (pow * (b[i] - 48)); /*Adding the number*/
+		len--;
+		pow = 1; /*Reseting the exponent*/
 	}
 
-	n = atoi(b);
-
-	while (n != 0)
-	{
-		rem = n % 10;
-		n /= 10;
-		dec += rem * power(2, i);
-		++i;
-	}
-
-	return (dec);
+	return (sum);
 }
