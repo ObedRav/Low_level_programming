@@ -1,6 +1,23 @@
 #include "main.h"
 
 /**
+ * power - calculates the power pf two numbers
+ * @base: base to calcule
+ * @powr: the power to calculate
+ * Return: the result fo the operation
+ */
+unsigned int power(int base, unsigned int powr)
+{
+	unsigned int i, pows = base, current = 0;
+	for (i = 1; i <= powr; i++)
+	{
+		current = pows;
+		pows = current*base;
+	}
+	return ((pows/base));
+}
+
+/**
  * _strlen - count chars
  * @s: data from user
  * Return: The result
@@ -44,7 +61,7 @@ unsigned int binary_to_uint(const char *b)
 	{
 		rem = n % 10;
 		n /= 10;
-		dec += rem * pow(2, i);
+		dec += rem * power(2, i);
 		++i;
 	}
 
