@@ -9,12 +9,13 @@
 unsigned int power(int base, unsigned int powr)
 {
 	unsigned int i, pows = base, current = 0;
+
 	for (i = 1; i <= powr; i++)
 	{
 		current = pows;
-		pows = current*base;
+		pows = current * base;
 	}
-	return ((pows/base));
+	return ((pows / base));
 }
 
 /**
@@ -57,7 +58,7 @@ unsigned int binary_to_uint(const char *b)
 
 	n = atoi(b);
 
-	while (n!=0)
+	while (n != 0)
 	{
 		rem = n % 10;
 		n /= 10;
