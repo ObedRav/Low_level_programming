@@ -7,16 +7,16 @@
  */
 char *buffer(char *filename)
 {
-	char *buffer;
+	char *buf;
 
-	buffer = (char *)malloc(1024);
-	if (!buffer)
+	buf = (char *)malloc(1024);
+	if (!buf)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", filename);
 		exit(99);
 	}
 
-	return (buffer);
+	return (buf);
 }
 
 /**
@@ -27,7 +27,7 @@ void close_file(int fd)
 {
 	int i;
 
-	i = close(fd);
+	i = 	close(fd);
 
 	if (i != -1)
 	{
@@ -74,7 +74,6 @@ int main(int argc, char *argv[])
 		rd = read(fd, buffer1, 1024);
 		x = open(argv[2], O_WRONLY | O_APPEND);
 	} while (rd > 0);
-
 	free(buffer1);
 	close_file(fd);
 	close_file(x);
