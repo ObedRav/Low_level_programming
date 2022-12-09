@@ -17,12 +17,12 @@ void hash_table_delete(hash_table_t *ht)
 		if (ht->array[index])
 		{
 			node = ht->array[index];
-            while (node)
+			while (node)
 			{
 				tmp = node->next;
-                free(node->key);
+				free(node->key);
 				free(node->value);
-                free(node);
+				free(node);
 				node = tmp;
 			}
 		}
