@@ -2,9 +2,7 @@
 
 /**
  * free_list - Frees a list of nodes
- * @head: pointer to the first element of the list
  */
-
 void free_list(void)
 {
 	struct node *tmp;
@@ -15,11 +13,11 @@ void free_list(void)
 	{
 		tmp = top->next;
 		free(top);
-        top = NULL;
+		top = NULL;
 		top = tmp;
 	}
 	free(top);
-    top = NULL;
+	top = NULL;
 }
 
 /**
@@ -28,11 +26,10 @@ void free_list(void)
  */
 int main(void)
 {
-    int choice, data;
+	int choice, data;
 
-    top = NULL;
-
-    while (1)
+	top = NULL;
+	while (1)
 	{
 		printf("\n");
 		printf("1. Push\n");
@@ -43,7 +40,6 @@ int main(void)
 		printf("Please enter a choice: ");
 		scanf("%d", &choice);
 		printf("\n");
-
 		switch (choice)
 		{
 		case 1:
@@ -51,22 +47,22 @@ int main(void)
 			scanf("%d", &data);
 			push(data);
 			break;
-        case 2:
-            data = pop();
-            printf("The element deleted: %d\n", data);
-            break;
-        case 3:
-            printf("The topmost element is: %d\n", peek());
-            break;
-        case 4:
-            print();
-            break;
-        case 5:
-            free_list();
-            exit(1);
-        default:
-            printf("Wrong choice\n");
-        }
-    }
-    return (0);
-} 
+		case 2:
+			data = pop();
+			printf("The element deleted: %d\n", data);
+			break;
+		case 3:
+			printf("The topmost element is: %d\n", peek());
+			break;
+		case 4:
+			print();
+			break;
+		case 5:
+			free_list();
+			exit(1);
+		default:
+			printf("Wrong choice\n");
+		}
+	}
+	return (0);
+}

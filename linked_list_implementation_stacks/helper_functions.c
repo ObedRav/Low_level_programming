@@ -2,23 +2,22 @@
 
 /**
  * push - push the node to the stack
- * @head: the head of the list
  * @datau: the data to be pushed
- */ 
+ */
 void push(int datau)
 {
-    struct node *tmp;
-    
-    tmp = malloc(sizeof(struct node));
-    if (!tmp)
-    {
-        printf("Stack Overflow\n");
-        exit(1);
-    }
-    tmp->data = datau;
-    tmp->next = top;
+	struct node *tmp;
 
-    top = tmp;
+	tmp = malloc(sizeof(struct node));
+	if (!tmp)
+	{
+		printf("Stack Overflow\n");
+		exit(1);
+	}
+	tmp->data = datau;
+	tmp->next = top;
+
+	top = tmp;
 }
 
 /**
@@ -26,22 +25,22 @@ void push(int datau)
  */
 void print(void)
 {
-    struct node *tmp;
+	struct node *tmp;
 
-    tmp = top;
+	tmp = top;
 
-    if (isEmpty())
-    {
-        printf("Stack Underflow\n");
-        exit(1);
-    }
-    printf("The stack elements are: ");
-    while (tmp)
-    {
-        printf("%d ", tmp->data);
-        tmp = tmp->next;
-    }
-    printf("\n");
+	if (isEmpty())
+	{
+		printf("Stack Underflow\n");
+		exit(1);
+	}
+	printf("The stack elements are: ");
+	while (tmp)
+	{
+		printf("%d ", tmp->data);
+		tmp = tmp->next;
+	}
+	printf("\n");
 }
 
 /**
@@ -50,21 +49,21 @@ void print(void)
  */
 int pop(void)
 {
-    struct node *tmp;
-    int val;
+	struct node *tmp;
+	int val;
 
-    if (isEmpty())
-    {
-        printf("Stack Underflow\n");
-        exit(1);
-    }
-    tmp = top;
-    val = tmp->data;
+	if (isEmpty())
+	{
+		printf("Stack Underflow\n");
+		exit(1);
+	}
+	tmp = top;
+	val = tmp->data;
 
-    top = top->next;
-    free(tmp);
-    tmp = NULL;
-    return (val);
+	top = top->next;
+	free(tmp);
+	tmp = NULL;
+	return (val);
 }
 
 /**
@@ -73,10 +72,10 @@ int pop(void)
  */
 int isEmpty(void)
 {
-    if (!top)
-        return (1);
-    else
-        return (0);
+	if (!top)
+		return (1);
+	else
+		return (0);
 }
 
 /**
@@ -85,10 +84,10 @@ int isEmpty(void)
  */
 int peek(void)
 {
-    if (isEmpty())
-    {
-        printf("Stack Underflow\n");
-        exit(1);
-    }
-    return (top->data);
+	if (isEmpty())
+	{
+		printf("Stack Underflow\n");
+		exit(1);
+	}
+	return (top->data);
 }

@@ -5,8 +5,8 @@
 #include <stdlib.h>
 
 struct node {
-    int data;
-    struct node *next;
+	int data;
+	struct node *next;
 } *top;
 
 void push(int datau);
