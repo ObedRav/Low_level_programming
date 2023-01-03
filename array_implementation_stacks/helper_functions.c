@@ -2,26 +2,26 @@
 
 /**
  * isFull - check if the stack is full
- * return: 1 if the stack is full or 0 otherwise
+ * Return: 1 if the stack is full or 0 otherwise
  */
-int isFull()
+int isFull(void)
 {
-    if (top == MAX - 1)
-        return (1);
-    else
-        return (0);
+	if (top == MAX - 1)
+		return (1);
+	else
+		return (0);
 }
 
 /**
  * isEmpty - check if the stack is empty
- * return: 1 if the stack is empty or 0 otherwise
+ * Return: 1 if the stack is empty or 0 otherwise
  */
-int isEmpty()
+int isEmpty(void)
 {
-    if (top == -1)
-        return (1);
-    else
-        return (0);
+	if (top == -1)
+		return (1);
+	else
+		return (0);
 }
 
 /**
@@ -30,43 +30,43 @@ int isEmpty()
  */
 void push(int data)
 {
-    if (isFull())
-    {
-        printf("Stack Overflow");
-        return;
-    }
-    top += 1;
-    stack_arr[top] = data;
+	if (isFull())
+	{
+		printf("Stack Overflow");
+		return;
+	}
+	top += 1;
+	stack_arr[top] = data;
 }
 
 /**
  * pop - pop an element from the stack
- * return: the element popped
+ * Return: the element popped
  */
-int pop()
+int pop(void)
 {
-    int value;
+	int value;
 
-    if (isEmpty())
-    {
-        printf("Stack Underflow\n");
-        exit(1);
-    }
-    value = stack_arr[top];
-    top -= 1;
-    return (value);
+	if (isEmpty())
+	{
+		printf("Stack Underflow\n");
+		exit(1);
+	}
+	value = stack_arr[top];
+	top -= 1;
+	return (value);
 }
 
 /**
  * peek - return the top element from the stack
- * return: the top element
+ * Return: the top element
  */
-int peek()
+int peek(void)
 {
-    if (isEmpty())
-    {
-        printf("Stack Underflow\n");
-        exit(1);
-    }
-    return (stack_arr[top]);
+	if (isEmpty())
+	{
+		printf("Stack Underflow\n");
+		exit(1);
+	}
+	return (stack_arr[top]);
 }

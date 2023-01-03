@@ -9,11 +9,11 @@
 int stack_arr[MAX];
 int top;
 
-int isFull();
-int isEmpty();
+int isFull(void);
+int isEmpty(void);
 void push(int data);
-int pop();
-int peek();
-void print();
+int pop(void);
+int peek(void);
+void print(void);
 
 #endif
