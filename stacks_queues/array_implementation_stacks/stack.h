@@ -6,8 +6,8 @@
 
 #define MAX 4
 
-int stack_arr[MAX];
-int top;
+extern int stack_arr[MAX];
+extern int top;
 
 int isFull(void);
 int isEmpty(void);

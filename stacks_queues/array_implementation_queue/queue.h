@@ -6,8 +6,8 @@
 
 #define MAX 10
 
-int queue[MAX];
-int front, back;
+extern int queue[MAX];
+extern int front, back;
 
 int isEmpty(void);
 int isFull(void);
