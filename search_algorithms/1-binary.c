@@ -69,6 +69,6 @@ int binary_search(int *array, size_t size, int value)
 	if (!array)
 		return (-1);
 
-	ret = bina_search(array, (int)size - 1, 0, value);
+	ret = bina_search(array, size - 1, 0, value);
 	return (ret);
 }
