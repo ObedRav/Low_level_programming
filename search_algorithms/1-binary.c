@@ -1,4 +1,5 @@
 #include "search_algos.h"
+
 /**
  * print_array - prints array
  * @array: sorted array of ints
@@ -26,6 +27,7 @@ void print_array(int *array, size_t high, size_t low)
 	}
 	printf("\n");
 }
+
 /**
  * bina_search - binary search helper function
  * Recursively searches for value based on midpoint
@@ -52,6 +54,7 @@ int bina_search(int *array, size_t high, size_t low, int value)
 	}
 	return (-1);
 }
+
 /**
  * binary_search - binary search algorithm
  * @array: array of sorted ints
