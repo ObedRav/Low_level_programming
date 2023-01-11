@@ -27,7 +27,7 @@ void print_array(int *array, size_t high, size_t low)
 	printf("\n");
 }
 /**
- * b_search - binary search helper function
+ * bina_search - binary search helper function
  * Recursively searches for value based on midpoint
  * @array: sorted array of ints
  * @high: top end of array
