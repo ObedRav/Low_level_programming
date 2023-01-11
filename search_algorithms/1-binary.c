@@ -6,7 +6,7 @@
  * @high: upper bound
  * @low: lower bound
  */
-void print_array(int *array, size_t high, size_t low)
+void print_array(int *array, ssize_t high, ssize_t low)
 {
 	if (low > high)
 		return;
@@ -35,9 +35,9 @@ void print_array(int *array, size_t high, size_t low)
  * @high: top end of array
  * @low: lower bound of array
  * @value: value to search for
- * Return: postion or otherwise -1
+ * Return: position or otherwise -1
  */
-int bina_search(int *array, size_t high, size_t low, int value)
+int bina_search(int *array, ssize_t high, ssize_t low, int value)
 {
 	int mid = low + (high - low) / 2;
 
@@ -69,6 +69,6 @@ int binary_search(int *array, size_t size, int value)
 	if (!array)
 		return (-1);
 
-	ret = bina_search(array, size - 1, 0, value);
+	ret = bina_search(array, (int)size - 1, 0, value);
 	return (ret);
 }
