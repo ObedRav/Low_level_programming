@@ -9,6 +9,7 @@ void print_array(int *array, size_t high, size_t low)
 {
 	if (low > high)
 		return;
+
 	printf("Searching in array: ");
 	if (low == high)
 	{
@@ -34,7 +35,7 @@ void print_array(int *array, size_t high, size_t low)
  * @value: value to search for
  * Return: postion or otherwise -1
  */
-int b_search(int *array, size_t high, size_t low, int value)
+int bina_search(int *array, size_t high, size_t low, int value)
 {
 	int mid = low + (high - low) / 2;
 
@@ -45,9 +46,9 @@ int b_search(int *array, size_t high, size_t low, int value)
 	if (high >= low)
 	{
 		if (array[mid] > value)
-			return (b_search(array, mid - 1, low, value));
+			return (bina_search(array, mid - 1, low, value));
 		else
-			return (b_search(array, high, mid + 1, value));
+			return (bina_search(array, high, mid + 1, value));
 	}
 	return (-1);
 }
@@ -60,11 +61,11 @@ int b_search(int *array, size_t high, size_t low, int value)
  */
 int binary_search(int *array, size_t size, int value)
 {
-	int ret;
+	size_t ret;
 
 	if (!array)
 		return (-1);
 
-	ret = b_search(array, (int)size - 1, 0, value);
+	ret = bina_search(array, size - 1, 0, value);
 	return (ret);
 }
