@@ -1,6 +1,6 @@
 [submodule "printf"]
 	path = printf
-	url = https://github.com/ObedRav/holbertonschool-printf
+	url = https://github.com/ObedRav/holbertonschool-printf.git
 [submodule "stacks_queues_lifo_fifo"]
 	path = stacks_queues_lifo_fifo
 	url = https://github.com/ObedRav/holbertonschool-monty
