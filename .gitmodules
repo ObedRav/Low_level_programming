@@ -9,4 +9,4 @@
 	url = https://github.com/Juanesduque1/holbertonschool-binary_trees.git
 [submodule "simple_shell"]
 	path = simple_shell
-	url = https://github.com/ObedRav/simple_shell
+	url = https://github.com/ObedRav/simple_shell.git
