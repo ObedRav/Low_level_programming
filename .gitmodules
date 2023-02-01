@@ -1,0 +1,12 @@
+[submodule "printf"]
+	path = printf
+	url = https://github.com/ObedRav/printf.git
+[submodule "stacks_queues_lifo_fifo"]
+	path = stacks_queues_lifo_fifo
+	url = https://github.com/ObedRav/monty.git
+[submodule "C-binary_trees"]
+	path = C-binary_trees
+	url = https://github.com/Juanesduque1/holbertonschool-binary_trees
+[submodule "simple_shell"]
+	path = simple_shell
+	url = https://github.com/ObedRav/simple_shell
