@@ -6,7 +6,7 @@ throughout the duration of the Year 1 curriculum, I learned about data
 structures, algorithms, and other low-level programming concepts while
 working in the C language. The specific list of projects contained follows:
 
-* [C - Hello, World](./-hello_world)
+* [C - Hello, World](./hello_world)
 * [C - Variables, if, else, while](./variables_if_else_while)
 * [C - Functions, nested loops](./functions_nested_loops)
 * [C - More functions, more nested loops](./more_functions_nested_loops)
@@ -22,14 +22,13 @@ working in the C language. The specific list of projects contained follows:
 * [C - Structures, typedef](./structures_typedef)
 * [C - Function pointers](./function_pointers)
 * [C - Variadic functions](./variadic_functions)
-* [C - printf](./printf)
+* [C - printf](https://github.com/ObedRav/holbertonschool-printf)
 * [C - Singly linked lists](./singly_linked_lists)
 * [C - More singly linked lists](./more_singly_linked_lists)
 * [C - Bit manipulation](./bit_manipulation)
 * [C - File I/O](./file_io)
 * [C - Simple Shell](https://github.com/ObedRav/simple_shell)
 * [C - Doubly linked lists](./doubly_linked_lists)
-* [C - Dynamic libraries](./dynamic_libraries)
 * [C - Stacks, Queues - LIFO, FIFO](https://github.com/ObedRav/holbertonschool-monty)
 * [C - Hash tables](./hash_tables)
 * [C - Sorting algorithms & Big O](https://github.com/ObedRav/holbertonschool-sorting_algorithms)
