@@ -10,7 +10,7 @@ in C while practicing declaring and defining functions.
 
 ## Tests :heavy_check_mark:
 
-* [tests](./tests): Folder of test files. Provided by Holberton School.
+* [tests](./tests): Folder of test files.
 
 ## Helper File :raised_hands:
 
