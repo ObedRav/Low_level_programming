@@ -10,3 +10,6 @@
 [submodule "simple_shell"]
 	path = simple_shell
 	url = https://github.com/ObedRav/simple_shell.git
+[submodule "sorting_algorithms"]
+	path = sorting_algorithms
+	url = https://github.com/ObedRav/holbertonschool-sorting_algorithms.git
