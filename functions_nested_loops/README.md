@@ -1,5 +1,8 @@
 # C - Functions, nested loops
 
+<p align="center">
+ <img src= "https://cdn.programiz.com/sites/tutorial2program/files/function-c-programming.jpg">
+
 ## Description
 
 This project is about nested loops, header files, and variable scope
@@ -31,7 +34,6 @@ functions written in the project.
 | `9-times_table.c`        | `void times_table(void)`         |
 | `10-add.c`               | `int add(int, int);`             |
 | `11-print_to_98.c`       | `void print_to_98(int n);`       |
-| `100-times_table.c`      | `void print_times_table(int n)`  |
 
 ## Tasks :page_with_curl:
 
