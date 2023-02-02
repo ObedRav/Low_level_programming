@@ -1,7 +1,7 @@
 # C - Variables, if, else, while
 
 <p align="center">
- <img src= ./image>
+ <img src= ./c_conditi-1024x770.png>
 
 ## Description
 
