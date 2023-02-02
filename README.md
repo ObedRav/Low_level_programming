@@ -27,6 +27,7 @@ working in the C language. The specific list of projects contained follows:
 * [C - Variadic functions](./variadic_functions)
 * [C - printf](https://github.com/ObedRav/holbertonschool-printf)
 * [C - Singly linked lists](./singly_linked_lists)
+* [C - Digital Clock](./digital_clock)
 * [C - More singly linked lists](./more_singly_linked_lists)
 * [C - Bit manipulation](./bit_manipulation)
 * [C - File I/O](./file_io)
