@@ -97,3 +97,14 @@ implementing `while` loops..
     * `00 01` and `01 00` are considered the same as the combination of of the numbers `0` and `1`.
     * Combinations of numbers are separated by `,`, followed by a space.
     * Combinations of numbers are printed in ascending order.
+    
+## Formatting and Examples
+### Compilation Flags
+-Wall -pedantic -Werror -Wextra -std=gnu89
+
+**Example:**
+```
+julien@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-print_alphabet.c -o 2-print_alphabet
+julien@ubuntu:~/$ ./2-print_alphabet 
+abcdefghijklmnopqrstuvwxyz
+julien@ubuntu:~/$
