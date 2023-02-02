@@ -36,9 +36,17 @@ functions written in the project.
 | `11-print_to_98.c`       | `void print_to_98(int n);`       |
 
 ## Formatting and Examples
-### Compile's flags
+<details open>
+<summary> <strong> Compile's flags </strong> </summary>
+
+```
 -Wall -pedantic -Werror -Wextra -std=gnu89
-### Example
+```
+
+</details>
+<details open>
+<summary> <strong> Example </strong> </summary>
+
 ```
 julien@ubuntu:~/$ cat 6-main.c
 #include "main.h"
@@ -71,6 +79,8 @@ julien@ubuntu:~/$ ./6-abs
 98
 julien@ubuntu:~/$ 
 ```
+
+</details>
 
 ## Tasks :page_with_curl:
 
