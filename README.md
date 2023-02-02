@@ -34,6 +34,7 @@ working in the C language. The specific list of projects contained follows:
 * [C - Simple Shell](https://github.com/ObedRav/simple_shell)
 * [C - Doubly linked lists](./doubly_linked_lists)
 * [C - Stacks, Queues - LIFO, FIFO](https://github.com/ObedRav/holbertonschool-monty)
+* [C - Stacks and Queues](./stacks_queues)
 * [C - Hash tables](./hash_tables)
 * [C - Sorting algorithms & Big O](https://github.com/ObedRav/holbertonschool-sorting_algorithms)
 * [C - Makefiles](./makefiles)
