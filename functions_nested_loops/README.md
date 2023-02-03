@@ -1,9 +1,9 @@
-# C - Functions, nested loops
+# C - Functions, nested loops :alien:
 
 <p align="center">
  <img src= "https://cdn.programiz.com/sites/tutorial2program/files/function-c-programming.jpg">
 
-## Description
+## Description :face_in_clouds:
 
 This project is about nested loops, header files, and variable scope
 in C while practicing declaring and defining functions.
@@ -35,7 +35,7 @@ functions written in the project.
 | `10-add.c`               | `int add(int, int);`             |
 | `11-print_to_98.c`       | `void print_to_98(int n);`       |
 
-## Formatting and Examples
+## Formatting and Examples :nerd_face:
 <details open>
 <summary> <strong> Compile's flags </strong> </summary>
 
@@ -85,7 +85,7 @@ julien@ubuntu:~/$
 ## Tasks :page_with_curl:
 
 * **0. _putchar**
-  * [0-putchar.c](./0-putchar.c): C program that prints `Holberton`, followed by a
+  * [0-putchar.c](./0-putchar.c): C program that prints `_putchar`, followed by a
   new line. Returns 0.
 
 * **1. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game**
