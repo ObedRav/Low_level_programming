@@ -8,11 +8,11 @@
  */
 int main(void)
 {
-	char s1[98];
-	char *p;
+	int n;
 
-	p = _strcpy(s1, "First, solve the problem. Then, write the code\n");
-	printf("%s", s1);
-	printf("%s", p);
+	n = 402;
+	printf("n=%d\n", n);
+	reset_to_98(&n);
+	printf("n=%d\n", n);
 	return (0);
 }
