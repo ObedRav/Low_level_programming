@@ -1,6 +1,6 @@
-# C - Binary trees tests
+# C - Binary trees tests :radioactive:
 
-## Table of contents
+## Table of contents :arrow_down:
 Files | Description
 ----- | -----------
 [1-main.c](./1-main.c) | C file testing the function print_alphabet(void) that prints the alphabet
