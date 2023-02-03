@@ -119,7 +119,7 @@ julien@ubuntu:~/$
 
 * **8. I'm federal agent Jack Bauer, and today is the longest day of my life**
   * [8-24_hours.c](./8-24_hours.c): C function that prints every minute of the day
-  of Jack Bauer, starting from 00:00 to 23:59.
+  of Jack Bauer, starting from `00:00` to `23:59`.
 
 * **9. Learn your times table**
   * [9-times_table.c](./9-times_table.c): C function that prints the 9 times table,
