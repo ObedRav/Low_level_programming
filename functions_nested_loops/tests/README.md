@@ -1,4 +1,4 @@
-# C - Binary trees tests :radioactive:
+# C - Functions nested loops tests :radioactive:
 
 ## Table of contents :arrow_down:
 Files | Description
