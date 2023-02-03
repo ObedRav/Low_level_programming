@@ -32,7 +32,6 @@ in C while practicing declaring and defining functions.
 | `7-print_diagonal.c`     | `void print_diagonal(int n);`    |
 | `8-print_square.c`       | `void print_square(int size);`   |
 | `10-print_triangle.c`    | `void print_triangle(int size);` |
-| `101-print_number.c`     | `void print_number(int n);`      |
 
 ## Formatting and Examples :nerd_face:
 <details open>
