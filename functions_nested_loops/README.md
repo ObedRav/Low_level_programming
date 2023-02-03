@@ -1,9 +1,9 @@
-# C - Functions, nested loops
+# C - Functions, nested loops :alien:
 
 <p align="center">
  <img src= "https://cdn.programiz.com/sites/tutorial2program/files/function-c-programming.jpg">
 
-## Description
+## Description :face_in_clouds:
 
 This project is about nested loops, header files, and variable scope
 in C while practicing declaring and defining functions.
@@ -35,7 +35,7 @@ functions written in the project.
 | `10-add.c`               | `int add(int, int);`             |
 | `11-print_to_98.c`       | `void print_to_98(int n);`       |
 
-## Formatting and Examples
+## Formatting and Examples :nerd_face:
 <details open>
 <summary> <strong> Compile's flags </strong> </summary>
 
