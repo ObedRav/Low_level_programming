@@ -84,7 +84,7 @@ julien@ubuntu:~/$
 
 ## Tasks :page_with_curl:
 
-* **0. _putchar**
+* **0. _putchar** :monkey_face:
   * [0-putchar.c](./0-putchar.c): C program that prints `_putchar`, followed by a
   new line. Returns 0.
 
