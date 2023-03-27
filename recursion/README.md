@@ -9,7 +9,7 @@ This poject is about how to use the recursion, and waht is.
 
 ## Tests :heavy_check_mark:
 
-* [tests](./tests): Folder of test files. Provided by Holberton School.
+* [tests](./tests): Folder of test files.
 
 ## Helper File :raised_hands:
 
