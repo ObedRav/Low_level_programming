@@ -13,8 +13,6 @@ working in the C language. The specific list of projects contained as follows:
 * [C - Functions, nested loops](./functions_nested_loops)
 * [C - More functions, more nested loops](./more_functions_nested_loops)
 * [C - Pointers, arrays and strings](./pointers_arrays_strings)
-* [C - More pointers, arrays and strings](./pointers_arrays_strings)
-* [C - Even more pointers, arrays and strings](./pointers_arrays_strings)
 * [C - Recursion](./recursion)
 * [C - Static libraries](./static_libraries)
 * [C - Argc, argv](./argc_argv)
