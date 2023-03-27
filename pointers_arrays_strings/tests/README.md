@@ -1,4 +1,4 @@
-# C - More functions nested loops tests :radioactive:
+# C - Pointers Arrays and Strings :radioactive:
 
 ## Table of contents :arrow_down:
 Files | Description
