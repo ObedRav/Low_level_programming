@@ -4,10 +4,9 @@
  <img src= "https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg">
 
 This repository contains programs written for the low-level programming and
-algorithm track at Holberton School. In these projects, which  occurred
-throughout the duration of the Year 1 curriculum, I learned about data
+algorithm track at Holberton School. In these projects, I learned about data
 structures, algorithms, and other low-level programming concepts while
-working in the C language. The specific list of projects contained follows:
+working in the C language. The specific list of projects contained as follows:
 
 * [C - Hello, World](./hello_world)
 * [C - Variables, if, else, while](./variables_if_else_while)
